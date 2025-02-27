@@ -1,6 +1,15 @@
 
 body {
-    background-color: black;
-    color:white;
+    background-color: #fefae0;
+    color: #7f4f24;
     
+}
+
+strong {
+    color:#ccd5ae;
+    
+}
+
+a {
+    color:#4a7c59:;
 }
