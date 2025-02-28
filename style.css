@@ -1,15 +1,39 @@
 
+
+
 body {
     background-color: #fefae0;
     color: #7f4f24;
     
 }
 
-strong {
-    color:#ccd5ae;
-    
+.titulo-blog{
+    margin-top: 25px;
+    margin: 25px;
+    padding:0px;
+    color:#E5B819
+}
+
+.titulo-destaque {
+    color:#ccd5ae
+}
+
+p{
+    margin:35px;
+    padding: 0px;
+}
+
+.texFollow {
+    color:#E6AB57;
+    margin: 50px;
+    padding: 10px;
+    border:2px dotted #E6AB57;
 }
 
 a {
-    color:#4a7c59:;
+    margin:50px
+}
+
+.myAvatar {
+    margin:50px
 }
