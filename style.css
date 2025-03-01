@@ -4,6 +4,8 @@
 body {
     background-color: #fefae0;
     color: #7f4f24;
+    height: 100vh;
+    box-sizing: border-box;
     
 }
 
@@ -31,9 +33,14 @@ p{
 }
 
 a {
-    margin:50px
+    margin:50px;
 }
 
 .myAvatar {
-    margin:50px
+    margin:50px;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
 }
