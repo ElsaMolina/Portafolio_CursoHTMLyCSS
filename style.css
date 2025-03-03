@@ -12,20 +12,15 @@ body {
     color:#ccd5ae
 }
 
-p{
-    margin:35px;
-    padding: 0px;
-}
-
 .texFollow {
     color:#E6AB57;
     margin: 50px;
     padding: 10px;
     border:2px dotted #E6AB57;
-}
-
-a {
-    margin:50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .myAvatar {
@@ -46,12 +41,33 @@ a {
 .presentacion_contenido_titulo{
     font-size: 36px;
     font-family: "Krona One", sans-serif;
-    margin: 25px;
     padding:0px;
     color:#E5B819
+    
 }
     
 .presentacion_contenido_texto{
     font-size:24px ;
     font-family: "Montserrat", sans-serif;
+    text-align: justify;
+}
+
+.presentacion_enlaces{
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion_enlaces_link{
+    width: 250px;
+    background-color:#ccd5ae ;
+    text-align: center;
+    padding:21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration:none;
+    color: #7f4f24;
+    margin: 1%;
+
 }
