@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: #fefae0;
@@ -7,13 +6,6 @@ body {
     height: 100vh;
     box-sizing: border-box;
     
-}
-
-.titulo-blog{
-    margin-top: 25px;
-    margin: 25px;
-    padding:0px;
-    color:#E5B819
 }
 
 .titulo-destaque {
@@ -43,4 +35,23 @@ a {
 .presentacion{
     display: flex;
     align-items: center;
+    margin: 10%;
+    justify-content: space-between ;
+}
+
+.presentacion_contenido{
+    width:615px;
+}
+
+.presentacion_contenido_titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    margin: 25px;
+    padding:0px;
+    color:#E5B819
+}
+    
+.presentacion_contenido_texto{
+    font-size:24px ;
+    font-family: "Montserrat", sans-serif;
 }
