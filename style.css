@@ -46,6 +46,12 @@ body {
     text-align: justify;
 }
 
+.miNombre:hover{
+    background-color: #E5B819;
+    border-radius: 10px;
+    padding: 2px;
+}
+
 .presentacion_enlaces{
     display: flex;
     justify-content: space-between;
@@ -81,7 +87,7 @@ body {
 .texFollow {
     color:#E6AB57;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     padding: 10px;
     text-align: center;
