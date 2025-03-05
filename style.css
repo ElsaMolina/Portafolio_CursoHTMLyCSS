@@ -12,17 +12,6 @@ body {
     color:#ccd5ae
 }
 
-.texFollow {
-    color:#E6AB57;
-    border:2px dotted #E6AB57;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    padding: 10px;
-    text-align: center;
-   
-}
-
 .myAvatar {
     width: 650px;
 
@@ -60,19 +49,32 @@ body {
 .presentacion_enlaces{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
 }
 
 .presentacion_enlaces_link{
-    width: 250px;
-    background-color:#ccd5ae ;
+    width: 370px;
     text-align: center;
     padding:21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration:none;
     color: #7f4f24;
     margin: 1%;
+    border:5px double #ccd5ae;
+}
 
+
+.texFollow {
+    color:#E6AB57;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
 }
