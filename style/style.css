@@ -20,7 +20,7 @@ body {
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 3% 10%;
+   padding: 3% 10%;
     justify-content: space-between;
 }
 
@@ -107,19 +107,25 @@ body {
     margin: 0;
 }
 
+.header{
+    padding: 2% 0% 0% 10%;
+}
+
 .header_menu{
-    background-color:#E5B819;
-    padding: 24px;
+    margin: 0 20px;
     display: flex;
+    gap: 80px;
     justify-content:left;
     align-items: center;
     
 }
 
 .header_menu_link{
-    font-size:25px;
     margin: 0 20px;
     padding:10px 10px ;
+    font-family: "Montserrat", sans-serif;
+    font-size:25px;
+    font-weight: 600;
     text-decoration:none;
     color: #7f4f24;
    
