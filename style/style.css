@@ -32,16 +32,16 @@ body {
     align-items: center;
     padding: 3% 10%;
     justify-content:center;
-    gap: 10%
-
+    gap: 20%
    
 }
 
 .presentacion_contenido{
-    width:615px;
+    width:;
     display: flex;
     flex-direction: column;
     gap: 25px;
+
 }
 
 .presentacion_contenido_titulo{
@@ -49,9 +49,33 @@ body {
     font-size: 36px;
     font-family: var(--fuente-kronaOne) ;
     margin: 0%;
-    padding:0%;
+    padding:0%;  
     
+}
+
+.presentacion_contenido_seccionCurriculum{
+    width:800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 5% 0% 5% 0%;
+}
+
+.Presentacion_contenido_subtitulo1{
+    border:4px dotted var(--color-primario);
+    border-radius:16px;
+    padding: 2%;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    font-family: var(--fuente-montserrat);
+    margin: 3% 0% 3% 0%;
+
     
+}
+
+.Presentacion_contenido_subtitulo2{
+    color: var(--color-primario);
+    font-family: var(--fuente-montserrat);
 }
     
 .presentacion_contenido_texto{
