@@ -30,15 +30,18 @@ body {
 .presentacion{
     display: flex;
     align-items: center;
-   padding: 3% 10%;
-    justify-content: space-between;
+    padding: 3% 10%;
+    justify-content:center;
+    gap: 10%
+
+   
 }
 
 .presentacion_contenido{
     width:615px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .presentacion_contenido_titulo{
