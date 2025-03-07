@@ -32,21 +32,22 @@ body {
     align-items: center;
     padding: 3% 10%;
     justify-content:center;
-    gap: 20%
+    gap: 20%;
+    margin: 0%
    
 }
 
 .presentacion_contenido{
-    width:;
+    width:600px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 
 }
 
 .presentacion_contenido_titulo{
     color:var(--color-secundario);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fuente-kronaOne) ;
     margin: 0%;
     padding:0%;  
@@ -79,7 +80,7 @@ body {
 }
     
 .presentacion_contenido_texto{
-    font-size:24px ;
+    font-size: 1.5rem;
     margin: 0%;
     font-family: var(--fuente-montserrat);
     text-align: justify;
@@ -102,12 +103,12 @@ body {
 
 
 .presentacion_enlaces_link{
-    width: 370px;
+    width: 23.12rem;
     text-align: center;
-    padding:21.5px 0;
+    padding:1.34rem 0;
     border-radius: 8px;
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration:none;
     color: var(--color-primario);
@@ -121,12 +122,12 @@ body {
 }
 
 .icon{
-    width: 35px;
+    width: 2.18rem;
     justify-content: center;
 }
 
 .icon2{
-    width: 45px;
+    width: 2.81rem;
     justify-content: center;
 }
 
@@ -140,7 +141,7 @@ body {
 .texFollow {
     color: var(--color-secundario);
     font-family: var(--fuente-montserrat);
-    font-size: 30px;
+    font-size: 1.87rem;
     font-weight: 600;
     padding: 10px;
     text-align: center;
@@ -152,14 +153,14 @@ body {
     color:var(--color-secundario);
     text-align: center;
     font-family: var(--fuente-montserrat);
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
     margin: 0;
 }
 
 .header{
     background-color: var(--color-secundario);
-    padding:24px;
+    padding: 24px;
     display: flex;
     align-items: center;
 }
@@ -178,7 +179,7 @@ body {
     margin: 0 20px;
     padding:10px 20px ;
     font-family: var(--fuente-montserrat);
-    font-size:28px;
+    font-size:1.75rem;
     font-weight: 800;
     text-decoration:none;
     color: var(--color-primario);
